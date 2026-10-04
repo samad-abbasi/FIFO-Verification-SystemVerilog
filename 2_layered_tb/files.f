@@ -1,0 +1,10 @@
+../rtl/sync_fifo.sv
+fifo_if.sv
+fifo_transaction.sv
+generator.sv
+driver.sv
+monitor.sv
+scoreboard.sv
+environment.sv
+test.sv
+top.sv
