@@ -1,0 +1,152 @@
+xrun(64): 24.09-s008: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s008: Started on Aug 09, 2026 at 14:50:04 PKT
+xrun
+	fifo.sv
+	fifo_if.sv
+	fifo_transaction.sv
+	generator.sv
+	driver.sv
+	monitor.sv
+	scoreboard.sv
+	environment.sv
+	test.sv
+	top.sv
+Recompiling... reason: file './top.sv' is newer than expected.
+	expected: Thu Aug  6 00:44:45 2026
+	actual:   Sun Aug  9 14:49:54 2026
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		$unit_0x13f474bd
+		top
+  .count     (fifo_vif.count),
+                           |
+xmelab: *W,CUVMPW (./top.sv,27|27): port sizes differ in port connection(4/3) for the instance(top) .
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.sync_fifo:sv <0x12ed184b>
+			streams:   9, words:  3679
+		worklib.top:sv <0x087efaea>
+			streams:  14, words:  4676
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                    2       2
+		Interfaces:                 1       1
+		Registers:                 66      96
+		Scalar wires:              16       -
+		Vectored wires:             5       -
+		Named events:               0       1
+		Always blocks:              2       2
+		Initial blocks:             3       3
+		Clocking blocks:            2       2
+		Clocking items:            18      18
+		Parallel blocks:            1       1
+		Cont. assignments:          1       4
+		Pseudo assignments:        11       -
+		Compilation units:          1       1
+		SV Class declarations:      7       7
+		SV Class specializations:   7       7
+		Process Clocks:             1       1
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xcelium> source /opt/cadencetools/XCELIUM2409/tools/xcelium/files/xmsimrc
+xcelium> run
+Data_in 24 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 10 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 32 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 42 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 74 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 72 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 98 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 60 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 30 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 70 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 84 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 16 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 38 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 80 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 78 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 86 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 100 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 2 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 78 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 76 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 62 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 4 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 76 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 74 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 100 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 10 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 70 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 22 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 88 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 54 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 64 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 8 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 90 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 80 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 100 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 24 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 38 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 2 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 14 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 50 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 98 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 92 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 84 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 64 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 70 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 66 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 12 Data_out 0 Wr_en 1 Rd_En 0
+Data_in 48 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 38 Data_out 0 Wr_en 0 Rd_En 1
+Data_in 82 Data_out 0 Wr_en 0 Rd_En 1
+Total Gen transactions are:         50 
+[SCB_WRITE] pushed: 32
+[SCB_WRITE] pushed: 42
+[SCB_PASS] Expected: 32, Actual: 32
+[SCB_WRITE] pushed: 72
+[SCB_PASS] Expected: 42, Actual: 42
+[SCB_PASS] Expected: 72, Actual: 72
+[SCB_WRITE] pushed: 38
+[SCB_WRITE] pushed: 80
+[SCB_WRITE] pushed: 78
+[SCB_PASS] Expected: 38, Actual: 38
+[SCB_PASS] Expected: 80, Actual: 80
+[SCB_PASS] Expected: 78, Actual: 78
+[SCB_WRITE] pushed: 78
+[SCB_WRITE] pushed: 76
+[SCB_WRITE] pushed: 62
+[SCB_PASS] Expected: 78, Actual: 78
+[SCB_WRITE] pushed: 76
+[SCB_PASS] Expected: 76, Actual: 76
+[SCB_WRITE] pushed: 100
+[SCB_WRITE] pushed: 10
+[SCB_PASS] Expected: 62, Actual: 62
+[SCB_WRITE] pushed: 88
+[SCB_PASS] Expected: 76, Actual: 76
+[SCB_WRITE] pushed: 64
+[SCB_PASS] Expected: 100, Actual: 100
+[SCB_PASS] Expected: 10, Actual: 10
+[SCB_WRITE] pushed: 38
+[SCB_WRITE] pushed: 2
+[SCB_PASS] Expected: 88, Actual: 88
+[SCB_PASS] Expected: 64, Actual: 64
+[SCB_WRITE] pushed: 84
+[SCB_WRITE] pushed: 64
+[SCB_PASS] Expected: 38, Actual: 38
+[SCB_WRITE] pushed: 12
+[SCB_PASS] Expected: 2, Actual: 2
+[SCB_PASS] Expected: 84, Actual: 84
+[SCB_PASS] Expected: 64, Actual: 64
+[SCB_PASS] Expected: 12, Actual: 12
+Simulation complete via $finish(1) at time 570 NS + 0
+./environment.sv:41 $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s008: Exiting on Aug 09, 2026 at 14:50:05 PKT  (total: 00:00:01)
